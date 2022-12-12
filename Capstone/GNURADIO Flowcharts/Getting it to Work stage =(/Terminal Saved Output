@@ -1,0 +1,59 @@
+Last login: Sat Dec  3 01:35:40 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Mac-Studio:~ nattykorb$ sudo port install gnuradio
+Password:
+--->  Computing dependencies for gnuradio
+Error: Cannot install gnuradio for the arch 'arm64' because
+Error: its dependency qt5-qtbase does not build for the required arch by default
+Error: and does not have a universal variant.
+Error: Follow https://guide.macports.org/#project.tickets if you believe there
+is a bug.
+Error: Processing of port gnuradio failed
+(base) Mac-Studio:~ nattykorb$ sudo port gnuradio clean
+Error: Unrecognized action "port gnuradio"
+(base) Mac-Studio:~ nattykorb$ sudo port clean
+Can't map the URL 'file://.' to a port description file ("Could not find Portfile in /Users/nattykorb").
+Please verify that the directory and portfile syntax are correct.
+To use the current port, you must be in a port's directory.
+(base) Mac-Studio:~ nattykorb$ sudo vi /etc/paths
+
+
+
+
+
+
+
+
+/usr/local/bin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
+/opt/local/bin
+/opt/local/sbin
+~
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+~                                                                                         
+-- INSERT -- 
